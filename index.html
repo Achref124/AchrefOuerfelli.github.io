@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2038/2038767.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>checkpoint DOM</title>
+</head>
+<body>
+    <!-- ########## NAVBAR ##########-->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">ACHREF SHOP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">who we are</a>
+              <a class="nav-link" href="#">promo</a>
+              <a class="nav-link disabled">contact us</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="total">
+        <span>Total Price:</span>
+        <span id="totpri">0</span>
+        <span>$</span>
+
+      </div>
+<!--########## CARDS  ###########-->
+    <div class="cards">
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://rukminim1.flixcart.com/image/612/612/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70" class="img-fluid rounded-start" alt="shoes">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Shoes For Men.</h5>
+              <p>casual shoes for men- up to 50% to 80% off on website www.casual.com</p>
+              <div class="parent">
+                <p>Price:</p>
+                <p class="prix-unitaire">150</p>
+                <p>$</p>
+              </div>
+              <i class="fa-solid fa-square-plus"></i>
+              <span class="qt">0</span>
+              <i class="fa-solid fa-square-minus"></i>
+              <i class="fa-solid fa-trash-can"></i>
+              <i class="fa-solid fa-heart"></i>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://cdn.shopify.com/s/files/1/0532/2725/8017/files/03_Slim_5e7b00e6-920a-4adb-b4fb-09924faecaa5.jpg?v=1644619045" class="img-fluid rounded-start" alt="pants">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Pants For Men.</h5>
+              <p>Pants For Man, check website www.chopify.com </p>
+              <div class="parent">
+                <p>Price:</p>
+                <p class="prix-unitaire">150</p>
+                <p>$</p>
+              </div>
+              <i class="fa-solid fa-square-plus"></i>
+              <span class="qt">0</span>
+              <i class="fa-solid fa-square-minus"></i>
+              <i class="fa-solid fa-trash-can"></i>
+              <i class="fa-solid fa-heart"></i>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://static.skyassets.com/contentstack/assets/blt143e20b03d72047e/bltab2d565224fbb987/6319db02937b9657b5f2b803/Carousel_iPhone14_Blue_Placement01-PreOrder.png" class="img-fluid rounded-start" alt="iphone">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">iphone 12 PRO</h5>
+              <p>30% OFF on www.carrefour.com</p>
+              <div class="parent">
+                <p>Price:</p>
+                <p class="prix-unitaire">750</p>
+                <p>$</p>
+              </div>
+              <i class="fa-solid fa-square-plus"></i>
+              <span class="qt">0</span>
+              <i class="fa-solid fa-square-minus"></i>
+              <i class="fa-solid fa-trash-can"></i>
+              <i class="fa-solid fa-heart"></i>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://www.tunisianet.com.tn/273806-large/pc-portable-gamer-acer-nitro-5-i7-11e-gen-8-go-rtx-3050-4g.jpg" class="img-fluid rounded-start" alt="PC-Gamer">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                 <h5 class="card-title">PC portable Gamer</h5>
+              <p>RTX 4070, i9 12500U, 32Go RAM, 512SSD </p>
+              <div class="parent">
+                <p>Price:</p>
+                <p class="prix-unitaire">1800</p>
+                <p>$</p>
+              </div>
+              <i class="fa-solid fa-square-plus"></i>
+              <span class="qt">0</span>
+              <i class="fa-solid fa-square-minus"></i>
+              <i class="fa-solid fa-trash-can"></i>
+              <i class="fa-solid fa-heart"></i>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--######### FOOTER #######-->
+    <div class="footer-basic">
+        <footer>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">ACHREF SHOP © 2023</p>
+        </footer>
+
+    
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
